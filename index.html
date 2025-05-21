@@ -18,25 +18,17 @@
         },
       };
     </script>
-    <style>
-      .pixelated {
-        image-rendering: pixelated;
-      }
-      .glow-link:hover {
-        color: #60a5fa;
-        text-shadow: 0 0 6px #3b82f6;
-      }
-    </style>
   </head>
-  <body class="bg-black text-white font-arkeo">
 
+  <body class="bg-black text-white font-arkeo">
+    <!--NAVBAR-->
     <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 w-[92%] max-w-6xl rounded-xl border border-blue-400/30 bg-black/60 backdrop-blur-md shadow-[0_0_18px_#38bdf8aa] px-6 py-3 z-50 mt-3">
       <div class="flex items-center justify-between">
         <div class="relative h-10 cursor-pointer">
-          <div class="absolute top-0 left-0 text-3xl font-bold text-blue-400 tracking-[.15em] select-none">
+          <div class="absolute top-[3px] left-[7px] text-3xl font-bold text-blue-400 tracking-[.15em] select-none">
             CheatCode
           </div>
-          <div class="absolute top-0 left-[2.5px] text-3xl font-bold text-white opacity-80 tracking-[.15em] select-none">
+          <div class="absolute top-0 left-[3.3px] text-3xl font-bold text-white opacity-80 tracking-[.15em] select-none">
             CheatCode
           </div>
         </div>
@@ -44,7 +36,6 @@
         <div class="hidden md:flex items-center space-x-6">
           <a href="#hacks" class="text-gray-300 hover:text-blue-400 glow-link tracking-tight whitespace-nowrap">Hacks</a>
           <a href="#reviews" class="text-gray-300 hover:text-blue-400 glow-link tracking-tight whitespace-nowrap">Reviews</a>
-          <a href="#leaderboard" class="text-gray-300 hover:text-blue-400 glow-link tracking-tight whitespace-nowrap">About</a>
           <a href="#newsletter" class="text-gray-300 hover:text-blue-400 glow-link tracking-tight whitespace-nowrap">Newsletter</a>
           <a href="#download" class="ml-4 bg-blue-600 text-white px-3 py-1.5 rounded-lg hover:bg-blue-500 transition whitespace-nowrap">
             Download
@@ -60,14 +51,14 @@
     </nav>
 
     <!-- HERO SECTION -->
-    <section class="pt-32 w-[92%] max-w-6xl mx-auto px-6 mt-7">
+    <section class="pt-32 w-[92%] max-w-6xl mx-auto px-6 mt-10">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-1/2 text-center md:text-left">
           <h1 class="text-5xl md:text-6xl font-bold text-blue-400 tracking-wide mb-7 select-none">
            Introducing <span class="text-white">CheatCode</span> to Success
           </h1>
           <p class="text-gray-300 text-md md:text-xl mb-8 max-w-lg">
-            Discover the best hacks and cheats to boost your productivity and level up your aura game IRL. Join the community of cheaters today!
+            Discover the best hacks and cheats to boost your productivity and level up your aura game IRL. Join the <span class="text-red-500 text-lg">exclusive</span> gng of cheaters today!
           </p>
           <a href="#download"
             class="inline-block bg-blue-600 hover:bg-blue-500 transition-transform duration-150 transform
@@ -81,54 +72,300 @@
         </div>
       </div>
     </section>
+    <!--seperator-->
+    <section class="w-[90%] max-w-2xl mx-auto my-24 py-12 flex items-center select-none overflow-hidden">
+      <hr class="flex-grow border-t border-green-400 opacity-70 max-w-full" />
+      <div class="ml-6 flex-shrink-0 max-w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+        <h1 class="relative font-mono font-extrabold uppercase text-green-400 
+                  text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-wider leading-snug 
+                  drop-shadow-[0_0_10px_rgba(34,197,94,0.7)] 
+                  drop-shadow-[0_0_20px_rgba(34,197,94,0.9)] animate-pulse
+                  whitespace-normal">
+          POWER UP YOUR GAME — HACK YOURSELF 😛 AND WIN THE FUTURE WITH CHEATS
+          <span class="absolute inset-0 text-green-400 opacity-60 animate-ping"></span>
+        </h1>
+      </div>
+      <hr class="flex-grow border-t border-green-400 opacity-70 max-w-full" />
+    </section>
 
-    <!-- HACK CARDS SECTION -->
-    <section id="hacks" class="pt-20 pb-16 w-[92%] max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-blue-300 mb-12 text-center select-none tracking-wide">
-        Top Selling <span class="text-white">Cheats</span>
+    <!-- hecks -->
+    <section id="hacks" class="pt-20 pb-20 w-[92%] max-w-6xl mx-auto px-6">
+      <h2 class="text-5xl font-extrabold mb-20 text-center select-none tracking-wider
+                  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500
+                  bg-clip-text text-transparent drop-shadow-lg -mt-8">
+        Top Selling <span class="text-white">Cheats ⚡ </span>
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-        <!-- CARD 1 -->
-        <details class="rounded-xl p-8 bg-gray-900 border border-blue-500/20 shadow-md transition-all duration-300
-                        hover:shadow-[0_0_25px_#38bdf8aa] hover:border-red-800 cursor-pointer select-none">
-          <summary class="list-none flex items-center cursor-pointer gap-1">
-            <span>Tap to reveal 🚀</span>
-            <img src="dropdown.svg" alt="arrow" class="w-5 h-5 ml-2" />
-          </summary>
-          <h3 class="mt-6 text-white font-extrabold text-2xl text-center">Leap</h3>
-          <p class="mt-3 text-gray-400 max-w-xs mx-auto text-center">
-            Boost your productivity to hack time and be fast asl
-          </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <details open class="group p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 
+          border-2 border-blue-500/20 shadow-xl relative overflow-hidden cursor-default select-none
+          hover:-translate-y-1 hover:scale-105 transition-all duration-300 
+          hover:shadow-[0_0_30px_#38bdf8aa] hover:border-blue-400">
+          <summary class="hidden">🚀 Leap cheat</summary>
+          <h3 class="mt-6 text-white font-extrabold text-3xl text-center tracking-wide">Leap</h3>
+          <p class="mt-4 text-gray-300 text-center text-lg leading-relaxed">Boost your productivity to hack time and be fast asl</p>
+
+          <div class="mt-6 flex justify-center items-center gap-6">
+            <span class="inline-block bg-pink-600 text-white text-sm px-5 py-2 rounded-full font-semibold tracking-wide shadow-md">₹199</span>
+            <button 
+              class="px-6 py-2 bg-pink-600 text-white rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform
+                    hover:bg-pink-700 hover:scale-110 hover:shadow-pink-500/70 active:scale-95 active:shadow-pink-700/90"
+              aria-label="Add Leap cheat to cart">
+              Add to Cart
+            </button>
+          </div>
         </details>
 
-        <!-- CARD 2 -->
-        <details class="rounded-xl p-8 bg-gray-900 border border-blue-500/20 shadow-md transition-all duration-300
-                        hover:shadow-[0_0_25px_#38bdf8aa] hover:border-blue-500 cursor-pointer select-none">
-          <summary class="list-none flex items-center cursor-pointer gap-1">
-            <span>Tap to reveal 🧠</span>
-            <img src="dropdown.svg" alt="arrow" class="w-5 h-5 ml-2" />
-          </summary>
-          <h3 class="mt-6 text-white font-extrabold text-2xl text-center">Brain Boost</h3>
-          <p class="mt-3 text-gray-400 max-w-xs mx-auto text-center">
-            Installs an LLM model inside your bird brain– oh hey CYBORG!
-          </p>
+        <details open class="group p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900
+          border-2 border-violet-500/30 shadow-xl relative overflow-hidden cursor-default select-none
+          hover:-translate-y-1 hover:scale-105 transition-all duration-300 
+          hover:shadow-[0_0_30px_#8b5cf6aa] hover:border-violet-400">
+          <summary class="hidden">⚡ Flash Focus cheat</summary>
+          <h3 class="mt-6 text-white font-extrabold text-3xl text-center tracking-wide">2x-er</h3>
+          <p class="mt-4 text-gray-300 text-center text-lg leading-relaxed">Lightning-fast speed. <span class="text-red-500 text-lg">wish i had that</span></p>
+
+          <div class="mt-6 flex justify-center items-center gap-6">
+            <span class="inline-block bg-violet-600 text-white text-sm px-5 py-2 rounded-full font-semibold tracking-wide shadow-md">₹219</span>
+            <button 
+              class="px-6 py-2 bg-violet-600 text-white rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform
+                    hover:bg-violet-700 hover:scale-110 hover:shadow-violet-500/70 active:scale-95 active:shadow-violet-700/90"
+              aria-label="Add Flash Focus cheat to cart">
+              Add to Cart
+            </button>
+          </div>
         </details>
 
-        <!-- CARD 3 -->
-        <details class="rounded-xl p-8 bg-gray-900 border border-blue-500/20 shadow-md transition-all duration-300
-                        hover:shadow-[0_0_25px_#38bdf8aa] hover:border-green-500 cursor-pointer select-none">
-          <summary class="list-none flex items-center cursor-pointer gap-1">
-            <span>Tap to reveal 👻</span>
-            <img src="dropdown.svg" alt="arrow" class="w-5 h-5 ml-2" />
-          </summary>
-          <h3 class="mt-6 text-white font-extrabold text-2xl text-center">Ghost Mode</h3>
-          <p class="mt-3 text-gray-400 max-w-xs mx-auto text-center">
-            Gives you the ability to ghost IRL
+        <details open class="group p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900
+          border-2 border-amber-500/30 shadow-xl relative overflow-hidden cursor-default select-none
+          hover:-translate-y-1 hover:scale-105 transition-all duration-300 
+          hover:shadow-[0_0_30px_#f59e0b] hover:border-amber-400">
+          <summary class="hidden">🧩 Puzzle Master cheat</summary>
+          <h3 class="mt-6 text-white font-extrabold text-3xl text-center tracking-wide">Maths Master</h3>
+          <p class="mt-4 text-gray-300 text-center text-lg leading-relaxed">Solve the most complex maths problems within few seconds. no hassle.</p>
+
+          <div class="mt-6 flex justify-center items-center gap-6">
+            <span class="inline-block bg-amber-500 text-white text-sm px-5 py-2 rounded-full font-semibold tracking-wide shadow-md">₹189</span>
+            <button 
+              class="px-6 py-2 bg-amber-500 text-white rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform
+                    hover:bg-amber-600 hover:scale-110 hover:shadow-amber-400/70 active:scale-95 active:shadow-amber-700/90"
+              aria-label="Add Puzzle Master cheat to cart">
+              Add to Cart
+            </button>
+          </div>
+        </details>
+
+        <details open class="group p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900
+          border-2 border-red-500/30 shadow-xl relative overflow-hidden cursor-default select-none
+          hover:-translate-y-1 hover:scale-105 transition-all duration-300 
+          hover:shadow-[0_0_30px_#ef4444aa] hover:border-red-400">
+          <summary class="hidden">💥 Critical Strike cheat</summary>
+          <h3 class="mt-6 text-white font-extrabold text-3xl text-center tracking-wide">AURA</h3>
+          <p class="mt-4 text-gray-300 text-center text-lg leading-relaxed">boosts your aura irl- makes you a nonchalant soul</p>
+
+          <div class="mt-6 flex justify-center items-center gap-6">
+            <span class="inline-block bg-red-500 text-white text-sm px-5 py-2 rounded-full font-semibold tracking-wide shadow-md">₹99XXXX</span>
+            <button 
+              class="px-6 py-2 bg-red-500 text-white rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform
+                    hover:bg-red-600 hover:scale-110 hover:shadow-red-500/70 active:scale-95 active:shadow-red-700/90"
+              aria-label="Add Critical Strike cheat to cart">
+              Add to Cart
+            </button>
+          </div>
+        </details>
+
+        <details open class="group p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900
+          border-2 border-green-500/30 shadow-xl relative overflow-hidden cursor-default select-none
+          hover:-translate-y-1 hover:scale-105 transition-all duration-300 
+          hover:shadow-[0_0_30px_#22c55eaa] hover:border-green-400">
+          <summary class="hidden">🌱 Growth Hack cheat</summary>
+          <h3 class="mt-6 text-white font-extrabold text-3xl text-center tracking-wide">Growth Hack</h3>
+          <p class="mt-4 text-gray-300 text-center text-lg leading-relaxed">Helps you mug up every sip of the syllabus that you will be tester for tomorrow🤓</p>
+
+          <div class="mt-6 flex justify-center items-center gap-6">
+            <span class="inline-block bg-green-600 text-white text-sm px-5 py-2 rounded-full font-semibold tracking-wide shadow-md">₹159</span>
+            <button 
+              class="px-6 py-2 bg-green-600 text-white rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform
+                    hover:bg-green-700 hover:scale-110 hover:shadow-green-500/70 active:scale-95 active:shadow-green-700/90"
+              aria-label="Add Growth Hack cheat to cart">
+              Add to Cart
+            </button>
+          </div>
+        </details>
+
+        <details open class="group p-6 rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900
+          border-2 border-cyan-500/30 shadow-xl relative overflow-hidden cursor-default select-none
+          hover:-translate-y-1 hover:scale-105 transition-all duration-300 
+          hover:shadow-[0_0_30px_#06b6d4aa] hover:border-cyan-400">
+          <summary class="hidden">💡 Idea Spark cheat</summary>
+          <h3 class="mt-6 text-white font-extrabold text-3xl text-center tracking-wide">
+            Idea Spark <span class="text-red-500 text-sm">(my personal favourite)</span>
+          </h3>
+          <p class="mt-4 text-gray-300 text-center text-lg leading-relaxed">
+            helps you think for some ACTUALLY GOOD designs for your websites :3
           </p>
+
+          <div class="mt-6 flex justify-center items-center gap-6">
+            <span class="inline-block bg-cyan-600 text-white text-sm px-5 py-2 rounded-full font-semibold tracking-wide shadow-md">₹179</span>
+            <button 
+              class="px-6 py-2 bg-cyan-600 text-white rounded-lg font-semibold shadow-lg transition duration-300 ease-in-out transform
+                    hover:rotate-3 hover:translate-x-1 hover:translate-y-0.5 hover:scale-110 hover:bg-cyan-700 hover:shadow-cyan-500/70 active:scale-95 active:shadow-cyan-700/90"
+              aria-label="Add Idea Spark cheat to cart">
+              Add to Cart
+            </button>
+          </div>
         </details>
       </div>
     </section>
+    <!-- reviews -->
+    <section id="reviews" class="pt-20 pb-20 w-[92%] max-w-4xl mx-auto px-6"> 
+      <h2 class="text-4xl font-extrabold mb-12 text-center select-none tracking-wide
+                  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500
+                  bg-clip-text text-transparent drop-shadow-md">
+        What People <span class="text-white">Say About Us 💬</span>
+      </h2>
+
+      <div class="flex flex-col gap-12">
+        <div class="p-6 rounded-xl bg-gray-900 border border-gray-700 shadow-md
+                    hover:bg-gray-800 transition-colors duration-200 cursor-default select-none flex gap-5 items-start">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ravi K." class="w-14 h-14 rounded-full object-cover border-2 border-indigo-500 flex-shrink-0" />
+          <div>
+            <h3 class="text-white text-2xl font-semibold mb-1">Ravi K.</h3>
+            <p class="text-gray-300 italic leading-relaxed text-lg max-w-xl">
+              “Leap cheat helped me save hours daily. Productivity boosted like crazy!”
+            </p>
+            <div class="mt-4 flex gap-1 text-yellow-400">
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+            </div>
+          </div>
+        </div>
+        <div class="p-6 rounded-xl bg-gray-900 border border-gray-700 shadow-md
+                    hover:bg-gray-800 transition-colors duration-200 cursor-default select-none flex gap-5 items-start">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Simran P." class="w-14 h-14 rounded-full object-cover border-2 border-pink-500 flex-shrink-0" />
+          <div>
+            <h3 class="text-white text-2xl font-semibold mb-1">Simran P.</h3>
+            <p class="text-gray-300 italic leading-relaxed text-lg max-w-xl">
+              “Flash Focus is insane! My attention span is next level now.”
+            </p>
+            <div class="mt-4 flex gap-1 text-yellow-400">
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-gray-900 border border-gray-700 shadow-md
+                    hover:bg-gray-800 transition-colors duration-200 cursor-default select-none flex gap-5 items-start">
+          <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="Amit S." class="w-14 h-14 rounded-full object-cover border-2 border-purple-500 flex-shrink-0" />
+          <div>
+            <h3 class="text-white text-2xl font-semibold mb-1">Amit S.</h3>
+            <p class="text-gray-300 italic leading-relaxed text-lg max-w-xl">
+              “Puzzle Master unlocked a new way of thinking for me. Highly recommend.”
+            </p>
+            <div class="mt-4 flex gap-1 text-yellow-400">
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />          
+              <img src="star.png" class="w-6 h-6" alt="star" />
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-gray-900 border border-gray-700 shadow-md
+                    hover:bg-gray-800 transition-colors duration-200 cursor-default select-none flex gap-5 items-start">
+          <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Neha R." class="w-14 h-14 rounded-full object-cover border-2 border-green-500 flex-shrink-0" />
+          <div>
+            <h3 class="text-white text-2xl font-semibold mb-1">Neha R.</h3>
+            <p class="text-gray-300 italic leading-relaxed text-lg max-w-xl">
+              “Good app but needs some improvements. Still helped me a lot overall.”
+            </p>
+            <div class="mt-4 flex gap-1 text-yellow-400">
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+              <img src="star.png" class="w-6 h-6" alt="star" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Founder -->
+    <!-- Newsletter -->
+    <section class="relative bg-gradient-to-b from-black to-gray-900 py-24 px-6 overflow-hidden" id="newsletter">
+      <div class="max-w-4xl mx-auto text-center relative z-10">
+        <h2 class="text-5xl sm:text-6xl font-extrabold mb-6 bg-gradient-to-r from-fuchsia-500 via-cyan-500 to-violet-600 text-transparent bg-clip-text animate-text-glow">
+          Join Nothing!
+        </h2>
+        <p class="text-gray-400 text-lg sm:text-xl max-w-xl mx-auto mb-10 font-mono">
+          daily aura updates
+        </p>
+        <form class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <input
+            type="email"
+            placeholder="ghost@cybermail.xyz"
+            required
+            class="w-full sm:w-[24rem] px-6 py-3 rounded-full bg-black/80 border border-fuchsia-600 text-white placeholder-fuchsia-400 shadow-[0_0_16px_#d946ef88] focus:outline-none focus:ring-2 focus:ring-fuchsia-500 transition duration-300"/>
+          <button
+            type="submit"
+            class="px-8 py-3 rounded-full bg-gradient-to-r from-pink-600 via-fuchsia-600 to-purple-700 text-white font-bold uppercase tracking-widest shadow-[0_0_18px_#f472b6] hover:scale-105 active:scale-95 transition-all duration-300">
+            Inject Me
+          </button>
+        </form>
+
+        <p class="mt-6 text-sm text-gray-600 font-mono italic tracking-wide">
+          YOU WILL BE SPAMMED(im a loner)
+        </p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 px-8 py-12 select-none">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-10">
+        <div class="md:flex-1">
+          <h2 class="text-xl font-semibold text-pink-500 mb-4">Contact Me</h2>
+          <p class="mb-2 text-gray-400">Collab? why not?</p>
+          <ul class="space-y-1 text-sm text-gray-400">
+            <li>Email: <a href="" class="hover:text-pink-500">sukhdevthukral2411@gmail.com</a></li>
+            <li>Location: <span class="italic">Delhi, India</span></li>
+          </ul>
+        </div>
+
+        <!--socialS-->
+        <div class="md:flex-1 flex flex-col items-start md:items-end">
+          <p class="text-sm mb-6 font-light">
+            Made with <span class="text-pink-500">❤️</span> by <span class="font-semibold text-pink-400">Sukhdev Thukral</span>
+          </p>
+          <div class="flex space-x-8 text-gray-400 text-sm font-semibold">
+            <a href="https://instagram.com/sukhdevthukral" target="_blank" rel="noopener" class="hover:text-pink-500 transition-colors duration-200">Instagram</a>
+            <a href="https://linkedin.com/in/sukhdevthukral" target="_blank" rel="noopener" class="hover:text-blue-500 transition-colors duration-200">LinkedIn</a>
+            <a href="https://x.com/shizzei" target="_blank" rel="noopener" class="hover:text-sky-400 transition-colors duration-200">X</a>
+            <a href="https://github.com/SukhdevThukral" target="_blank" rel="noopener" class="hover:text-gray-100 transition-colors duration-200">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright line -->
+      <div class="mt-12 border-t border-gray-700 pt-6 text-center text-xs text-gray-600 select-text">
+        © 2025 Sukhdev Thukral. All rights reserved.
+      </div>
+    </footer>
   </body>
 </html>
+
+<!---at least 6+ unique features. It can include, but not limited to: 
+Navbar
+Footer
+Sidebar
+Any larger components like blog cards, FAQ sections, or other interactive elements.
+at least 2 unique features. It can include, but not limited to:
+Navbar
+Footer
+Sidebar
+Your website is using only HTML and Tailwind CSS. CSS can be used only in exceptional cases that can't be done without pure CSS, such as, custom animations.
+Make it responsive! It should be useable on both phones and computers!
+The website must use containers! 
+Any larger components like blog cards, FAQ sections, or other interactive elements.-->
